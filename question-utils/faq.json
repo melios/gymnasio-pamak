@@ -13,5 +13,10 @@
         "id": 2,
         "question": "Πώς μπορώ να βρω ποια σχολεία υπάρχουν στην περιοχή μου;",
         "answer": "Μπορείτε να δείτε τα σχολεία που βρίσκονται κοντά σας, απλώς βάζοντας τον ταχυδρομικό σας κώδικα εδώ: https://schoolmap.gis.minedu.gov.gr/schoolmap"
+    },
+    {
+        "id": 4,
+        "question": "Υπάρχουν εξ αποστάσεως σημεία εξυπηρέτησης;",
+        "answer": "Ναι, υπάρχουν, μπορείτε να επισκεφθείτε το https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/ex-apostaseos-exuperetese-politon/exuperetese-me-telediaskepse-apo-kentro-exupereteses-politon-kep."  
     }
 ]
