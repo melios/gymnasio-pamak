@@ -201,6 +201,15 @@ $("document").ready(function () {
     );
   }
 
+  // get the url school map from faqs and link it
+  function convertURLsToLinks(text) {
+  return text.replace(
+    /https:\/\/schoolmap\.gis\.minedu\.gov\.gr\/schoolmap/g,
+    '<a href="$&" target="_blank">SchoolMap</a>.'
+  );
+}
+
+
   //Εachtime back/next buttons are pressed the form loads a question
   function loadQuestion(questionId, noError) {
     $("#nextQuestion").show();
