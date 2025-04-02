@@ -307,8 +307,8 @@ $("document").ready(function () {
     const errorEnd = document.createElement("h5");
     const error =
       currentLanguage === "greek"
-        ? "Λήξη ροής:"
-        : "End of flow:"; 
+        ? ""
+        : ""; 
         // (ή κρατήστε το παλιό "Λυπούμαστε αλλά δεν δικαιούστε το δελτίο μετακίνησης ΑΜΕΑ!" αν θέλετε...)
     errorEnd.className = "govgr-error-summary";
     errorEnd.textContent = error + " " + message;
@@ -398,7 +398,7 @@ $("document").ready(function () {
         if (selectedRadioButtonIndex === 1) {
           // Ναι => skipToEnd (με μήνυμα)
           currentQuestion = -1;
-          skipToEnd("Αν ο/η μαθητής/τρια πρόκειται να αλλάξει σχολείο...\n" +
+          skipToEnd("Αν ο/η μαθητής/τρια πρόκειται να αλλάξει σχολείο χρειάζονται να προσκομίσεται στο σχολείο της επιλογής σας: \n" +
                     "1. Εκτύπωση Ε1 ή Ε9 (για τη διεύθυνση)\n" +
                     "2. Ένας πρόσφατος λογαριασμός ΔΕΚΟ\n" +
                     "3. Αίτηση από την ιστοσελίδα του νέου σχολείου.");
