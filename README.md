@@ -1,4 +1,4 @@
-# ps-info-template
+# gymnasio-pamak
 
 Case Study you can use as a template to create a web-based dialog system that covers the information stage of a public service. This system includes two main elements, a questionnaire and a number of questions (with their answers) that are frequently asked by citizens about this service, known as FAQs. It was created in order to inform citizens whether or not they are eligible for the public service and to provide information on the documents required.
 
